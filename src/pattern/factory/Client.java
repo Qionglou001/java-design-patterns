@@ -5,7 +5,7 @@ package pattern.factory;
  * @author wangjianlou 2018年8月20日
  * @version V1.0
  */
-public class Test {
+public class Client {
 	public static void main(String[] args){
 		AbstractHumanFactory factory = new HumanFactory();
 		Human yellowHuman = factory.createHuman(YellowHuman.class);

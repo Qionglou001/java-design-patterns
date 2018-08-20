@@ -5,7 +5,7 @@ package pattern.clone;
  * @author wangjianlou 2018年8月20日
  * @version V1.0
  */
-public class Test {
+public class Client {
 	public static void main(String[] args) {
 	    Student stu = new Student();
 	    stu.setName("wangjianlou");
